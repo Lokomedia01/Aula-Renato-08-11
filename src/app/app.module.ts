@@ -3,10 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { CabecalhoComponent } from './cabecalho/cabecalho.component';
+import { HomeComponent } from './home/home.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent,],
+  declarations: [ AppComponent, CabecalhoComponent, HomeComponent, RodapeComponent,],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
